@@ -25,7 +25,8 @@ Times below are an approximation
 
 
 
-###Homework
+###Homework 
 
--	Learn to Program - Read Chpt 7 thru 12
-- More coming soon
+-	Learn to Program - Read Chapter's 7 thru 12
+- Well Grounded Rubyist - Read Chapter's 9 - 10
+- Review & Complete teddit_basic, ex_loop and reverse_it (on your own)
