@@ -13,6 +13,10 @@ results = JSON.parse(reddit_data.body)
 results["data"]["children"][0]["data"]["title"]
 
 #Print out the title of each post
-results["data"]["children"].each do |post|
-	puts post["data"]["title"]
+reddit_posts = results["data"]["children"]
+reddit_posts.each do |post|
+	binding.pry
+	puts "Title: #{post["data"]["title"]}.
+	Upvotes: #{post["data"]["ups"]}. Category: #(post["data"]["subreddit"])
+	puts post["data"]["subreddit"]
 end

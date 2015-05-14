@@ -9,12 +9,23 @@
 require 'pry'
 require 'pry-byebug'
 
+contact_list = [{:name => "Andrea", :telephone => "252-4394", :email => "andrea@gmail.com", :location => "Pac Heights"}, {:name => "Vish", :telephone => "643-8474", :email => "vish@gmail.com", :location => "Marina"}]
+
+puts contact_list.length
+
+contact_list.each do |contacts|
+  puts contact_list[0]
+  puts contact_list[1]
+end
+
+
 def contacts_count(contacts)
   "There are #{contacts.count} in your contacts database"
 end
 
 #create a contact using the hash syntax
 def create_contact(name, telephone, email)
+  contact =
 end
 
 #iterate through all contacts. Print THE name, email & telephone using iterpolation #{this_syntax_is interpolation}
