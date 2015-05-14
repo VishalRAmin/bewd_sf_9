@@ -20,7 +20,7 @@ end
 
 
 def contacts_count(contacts)
-  "There are #{contacts.count} in your contacts database"
+  puts "There are #{contacts.count} in your contacts database"
 end
 
 #create a contact using the hash syntax
@@ -32,8 +32,8 @@ end
 def contact_log(contacts)
 end
 
-#find a specific contact and pri the telephone number
-def find_and_call_contact(contacts, contact)
+#find a specific contact and print the telephone number
+def find_and_call_contact(contacts, name)
 end
 
 def add_to_contacts(contacts, contact)
@@ -42,6 +42,22 @@ end
 #array to hold each contact
 contacts = []
 
-#Examples. Only directional you can do this whatever way you like
-contact = create_contact("kisha", "555-555-5555", "kisha@example.com")
-add_contact(contacts, contact)
+# #Examples. Only directional you can do this whatever way you like
+# contact = create_contact("kisha", "555-555-5555", "kisha@example.com")
+# add_to_contacts(contacts, contact)
+#
+# contact = create_contact("david", "222-222-2222", "david@example.com")
+# add_to_contacts(contacts, contact)
+#
+# contact = create_contact("nicole", "444-444-4444", "nicole@example.com")
+# add_to_contacts(contacts, contact)
+#
+# ####
+# contacts_count(contacts)
+#
+# #find_a_name
+# name = "kisha"
+# find_and_call_contact(contacts, name)
+#
+# #contact_logs
+# contact_log(contacts)
